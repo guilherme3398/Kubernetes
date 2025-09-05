@@ -33,6 +33,10 @@ spec:
           periodSeconds: 10
           failuerThreshold: 5 # na 4 vezes ele enviar a requisição mesmo assim
           initialDelaySeconds: 20
+      
+      resources:
+        requests:  
+          cpu: 10m
 
   replicas: 3
   selector: 
