@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: nginx:stable
+          image: nginx:latest
           ports:
             - containerPort: 80
   selector:
